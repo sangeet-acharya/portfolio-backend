@@ -12,6 +12,7 @@ export const sendContactEmail = async ({ name, message, email, subject }) => {
       message +
       ". Voici son email : " +
       email,
+    //ajouter peut etre plus tard
     // html: `
     //   <h2>Nouveau message</h2>
     //   <p><strong>Nom :</strong> ${name}</p>
