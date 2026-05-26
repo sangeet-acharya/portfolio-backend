@@ -46,7 +46,6 @@ router.delete(
   authenticate,
   authorize("admin"),
   validateId,
-  validateProject,
   validate,
   deleteProject,
 );
